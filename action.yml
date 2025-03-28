@@ -1,0 +1,7 @@
+name: "Hello world"
+description: "Prints 'Hello world' to the console"
+author: "suma octavian"
+
+runs:
+  using: "node22"
+  main: "index.js"
