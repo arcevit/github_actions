@@ -1,7 +1,7 @@
-name: "Hello world"
-description: "Prints 'Hello world' to the console"
-author: "suma octavian"
+name: 'Hello World'
+description: 'nicely done'
+author: 'Hakki smn <hakkisuman@gmail.com>'
 
 runs:
-  using: "node22"
-  main: "index.js"
+  using: 'node12'
+  main: 'index.js'
