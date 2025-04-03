@@ -1,8 +1,10 @@
+name: "Hello world"
 
-
-name: Node.js Package
 
 on: [push, pull_request]
+
+
+
 
 jobs:
   build:
