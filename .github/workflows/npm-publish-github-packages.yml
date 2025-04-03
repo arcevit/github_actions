@@ -1,19 +1,12 @@
-name: Publish to GitHub Packages
+name: "Hello World"
 
 on: [push, pull_request]
 
 jobs:
-  build:
+  hello-world:
     runs-on: ubuntu-latest
-
     steps:
-    - name: Checkout repository
-      uses: actions/checkout@v4
-
-    - name: Set up Node.js
-      uses: actions/setup-node@v4
-
-    - name: find directory
-      uses: ./
+    - uses: actions/checkout@v1
+    - uses: ./
    
 
